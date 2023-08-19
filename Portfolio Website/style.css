@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Untitled\ design\ \(22\).png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 3%;
+    padding-right: 8%;
+}
+.logo{
+    color: rgb(241, 241, 241);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(78, 78, 218);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
