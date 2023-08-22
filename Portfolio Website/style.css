@@ -72,7 +72,7 @@ h4{
 .about-text{
     width: 550px;
     position: absolute;
-    top: 155%;
+    top: 117%;
     left: 50%;
 }
 .about-text h2{
@@ -111,7 +111,7 @@ button:hover{
     cursor: pointer;
 }
 .service{
-    background: #2f323a;
+    background: #1a1b24;
     width: 100%;
     padding: 100px 0px;
 }
@@ -132,7 +132,7 @@ button:hover{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #191919;
+    background: #31333f;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -205,10 +205,49 @@ h5{
 footer{
     position: relative;
     width: 100%;
-    height: 400px;
-    background: #2f323a;
+    height: 300px;
+    background: #1a1b24;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(78, 78, 218);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform:scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: rgb(78, 78, 218);
+    bottom: 35px;
+    font-size: 14px;
 }
